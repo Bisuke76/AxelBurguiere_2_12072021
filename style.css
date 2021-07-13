@@ -1,19 +1,21 @@
-/* Police Raleway */
+/* police Raleway */
 
-@font-face 
+@font-face {
+  font-family: 'Raleway';
+  src: url('font/Raleway-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* centrage page */
+
+#page_reservia
 {
-    font-family: 'Raleway';
-    src: url('font/Raleway-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
+  width: 80%;
+  margin: auto;
 }
 
-/* Centrage du site */
-
-body
+nav
 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  font-family: Raleway;
+  font-weight: normal;
 }
