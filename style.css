@@ -18,7 +18,7 @@ header
 {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 /* mise en forme logo */
 
@@ -38,8 +38,7 @@ a
 {
   display: inline-flex;
   text-decoration: none;
-  padding-inline: 40px;
-  margin: 0px 0px 45px 0px;
+  padding-left: 80px;
   color: inherit;
 }
 .lien_signup
