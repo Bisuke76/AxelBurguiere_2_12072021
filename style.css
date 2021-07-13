@@ -13,9 +13,40 @@
   width: 80%;
   margin: auto;
 }
+/* mise en forme header */
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* mise en forme logo */
+
+#logo_reservia
+{
+  padding: 30px;
+}
+/* mise en forme nav */
 
 nav
 {
   font-family: Raleway;
   font-weight: normal;
 }
+
+a
+{
+  display: inline-flex;
+  text-decoration: none;
+  padding-inline: 40px;
+  margin: 0px 0px 45px 0px;
+  color: inherit;
+}
+.lien_signup
+{
+  color: #0065FC;
+  font-weight: bold;
+
+}
+
+
