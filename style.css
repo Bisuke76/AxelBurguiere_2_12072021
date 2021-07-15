@@ -61,4 +61,16 @@ a
   border-top: 3px solid #0065FC;
   
 }
+/* media queries header */
+
+@media all and (max-device-width: 480px)
+{
+  #page_reservia
+  {
+    width: auto;
+  }
+  
+  
+  
+}
 
