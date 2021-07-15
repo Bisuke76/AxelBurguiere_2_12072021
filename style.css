@@ -12,6 +12,7 @@
 {
   width: 80%;
   margin: auto;
+
 }
 /* mise en forme header */
 header
@@ -36,16 +37,28 @@ nav
 
 a
 {
-  display: inline-flex;
+  display: inline;
   text-decoration: none;
-  padding-left: 80px;
   color: inherit;
+  padding: 50px;
 }
 .lien_signup
 {
   color: #0065FC;
   font-weight: bold;
-
 }
+/* changement apparence survol souris */
 
+.lien_hébergements:hover
+{
+  color: #0065FC;
+  border-top: 3px solid #0065FC;
+  
+}
+.lien_activités:hover
+{
+  color: #0065FC;
+  border-top: 3px solid #0065FC;
+  
+}
 
