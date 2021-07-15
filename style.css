@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* centrage page */
 
 #page_reservia
@@ -37,7 +38,6 @@ nav
 
 a
 {
-  display: inline;
   text-decoration: none;
   color: inherit;
   padding: 50px;
@@ -61,14 +61,19 @@ a
   border-top: 3px solid #0065FC;
   
 }
-/* media queries header */
+/* media queries header et body*/
 
 @media all and (max-device-width: 480px)
 {
   #page_reservia
   {
     width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
   }
+  
   
   
   
