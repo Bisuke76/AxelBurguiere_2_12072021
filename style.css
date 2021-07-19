@@ -10,67 +10,65 @@
 body{
   width: 80%;
   margin: auto;
-  padding-top: 28px;
-  font-family: 'Raleway';
-}
-
-/* mise en forme header */
-#headernav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 /* mise en forme nav */
-a{
-  text-decoration: none;
-  padding: 40px;
-  color: inherit;
+#headernav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+
 }
-.lien_signup{
+nav{
+  display: flex;
+  
+}
+nav a{
+  padding: 50px;
+  text-decoration: none;
+  color: inherit;
+  font-size: large; 
+  
+}
+.signup{
   color: #0065FC;
   font-weight: bold;
 }
-/* changement apparence survol souris */
-.lien_hébergements:hover{
+/* changemente apparence survol souris */
+
+.nav1:hover{
   color: #0065FC;
   border-top: 3px solid #0065FC;
+  transition-duration: 0.1s;
+  padding-top: 47px;
 }
-.lien_activités:hover{
+.nav2:hover{
   color: #0065FC;
   border-top: 3px solid #0065FC;
+  transition-duration: 0.1s;
+  padding-top: 47px;
 }
-/* media queries header */
-@media all and (max-device-width: 480px){
-  .lien_hébergements{
-    position: relative;
-    top: 70px; right: 135px;
-    border-bottom: 3px solid #F2F2F2;
-    padding: 0px 42px 10px 42px;
-    
+@media all and (max-device-width: 768px){
+  #logo_reservia{
+    padding-top: 35px;
   }
-  .lien_activités{
-    position: relative;
-    top: 51px; left: 60px;
-    border-bottom: 3px solid #F2F2F2;
-    padding: 0px 60px 10px 59px;
-  }
-  .lien_signup{
+  .signup{
     position: absolute;
-    top: 5px; left: 230px;
+    top: 0px; right: 0px;
+  }
+  body{
+    width: auto;
   }
   
-  .lien_hébergements:hover{
-    color: #0065FC;
-    border-bottom: 3px solid #0065FC;
-    border-top: none;
-  }
-  .lien_activités:hover{
-    color: #0065FC;
-    border-bottom: 3px solid #0065FC;
-    border-top: none;
-  }
+
   
+
 }
+
+
+
+
 
 
