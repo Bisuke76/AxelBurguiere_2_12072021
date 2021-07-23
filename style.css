@@ -45,21 +45,32 @@ nav li a:hover{
   color: #0065FC;
   border-top: 3px solid #0065FC;
 }
+/* affichage responsive header */
 @media all and (max-width: 770px){
   .signup{
     position: absolute;
-    top: 15px; right: 10px;
+    top: 35px; right: 20px;
   }
   nav{
     width: 100%;
   }
   ul{
     width: 100%;
-    border-bottom: 1px solid #0065FC;
+    border-bottom: 3px solid #F2F2F2;
   }
   li{
     width: 50%;
     text-align: center;
+  }
+  #logo{
+    padding: 20px;
+  }
+  /* changement apparence survol souris */
+  nav li a:hover{
+    border-top: inherit;
+  }
+  ul:hover{
+    border-bottom: 3px solid #0065FC;
   }
 }
 
