@@ -54,13 +54,18 @@ nav li a:hover{
   nav{
     width: 100%;
   }
+   
   ul{
     width: 100%;
-    border-bottom: 3px solid #F2F2F2;
+    
+  }
+  
   }
   li{
     width: 50%;
     text-align: center;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 15px;
   }
   #logo{
     padding: 20px;
@@ -69,9 +74,16 @@ nav li a:hover{
   nav li a:hover{
     border-top: inherit;
   }
-  ul:hover{
+  nav ul{
+    padding: 0px;
+  }
+  nav li:hover{
     border-bottom: 3px solid #0065FC;
   }
+  
+  
+
+  
 }
 
 
