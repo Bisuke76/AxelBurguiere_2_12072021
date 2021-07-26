@@ -79,12 +79,18 @@ nav li a:hover{
 h3{
   font-weight: lighter;
   font-size: 17px;
+  margin-top: 10px;
+}
+h2{
+  margin-bottom: 0;
 }
 @media all and (max-width: 770px){
   h2, h3{
     padding-left: 20px;
   }
 }
+
+
 
 
 
