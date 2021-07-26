@@ -75,6 +75,18 @@ nav li a:hover{
     border-bottom: 3px solid #0065FC;
   }
 }
+/* mise en forme titres */
+h3{
+  font-weight: lighter;
+  font-size: 17px;
+}
+@media all and (max-width: 770px){
+  h2, h3{
+    padding-left: 20px;
+  }
+}
+
+
 
 
 
