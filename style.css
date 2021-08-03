@@ -134,6 +134,8 @@ form{
     color: white;
     padding: 0px 10px 0px 10px;
     border-radius: 15px;
+    position: relative;
+    right: 10px;
   }
   button{
     border: none;
@@ -141,119 +143,52 @@ form{
     background-color: #0065FC;
   }
 }
-/*mise en forme filtres */
-.filters{
+/* mise en forme filtres */
+.section_filters{
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  padding-top: 30px;
 }
-.filters h3{
+
+.Filtres, .Filtres_P{
   font-weight: bold;
-  margin-bottom: 10px;
 }
-.economy{
+.filters_titles{
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  width: 200px;
+  border-radius: 25px;
   border: 2px solid #F2F2F2;
-  border-radius: 50px;
-  border-left: none;
 }
-.economy i{
-  color: #0065FC;
+.logofilters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   background-color: #DEEBFF;
-  padding: 15px;
-  border-radius: 50px;
+  color: #0065FC;
 }
-.economy h3{
-  padding: 0px 20px 0px 20px;
-}
-.economy:hover{
+/* changement apparence filtres */
+.filters_titles:hover{
   background-color: #DEEBFF;
   transition-duration: 0.5s;
 }
-.family{
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  border: 2px solid #F2F2F2;
-  border-radius: 50px;
-  border-left: none;
-}
-.family i{
-  color: #0065FC;
-  background-color: #DEEBFF;
-  padding: 15px 18px 15px 18px;
-  border-radius: 50%;
-}
-.family h3{
-  padding: 0px 20px 0px 20px;
-}
-.family:hover{
-  background-color: #DEEBFF;
-  transition-duration: 0.5s;
-}
-.romantic{
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  border: 2px solid #F2F2F2;
-  border-radius: 50px;
-  border-left: none;
-}
-.romantic i{
-  color: #0065FC;
-  background-color: #DEEBFF;
-  padding: 15px;
-  border-radius: 50px;
-}
-.romantic h3{
-  padding: 0px 20px 0px 20px;
-}
-.romantic:hover{
-  background-color: #DEEBFF;
-  transition-duration: 0.5s;
-}
-.pets_allowed{
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  border: 2px solid #F2F2F2;
-  border-radius: 50px;
-  border-left: none;
-}
-.pets_allowed i{
-  color: #0065FC;
-  background-color: #DEEBFF;
-  padding: 15px;
-  border-radius: 50px;
-}
-.pets_allowed h3{
-  padding: 0px 20px 0px 20px;
-}
-.pets_allowed:hover{
-  background-color: #DEEBFF;
-  transition-duration: 0.5s;
-}
+
+
 /* filtres affichage responsive */
 @media all and (max-width: 770px){
-  .filters{
-    padding-top: inherit;
-    margin-top: -35px;
+  .section_filters{
+    width: 100%;
+    padding-left: 15px;
   }
-  .economy{
-    margin: 100px 0 0 -50px;
+  .filters_titles{
+    width: 50%;
   }
-  .family{
-    margin: 100px 0 0 10px;
+  .Filtres_P{
+    padding-left: 20px;
   }
-  .romantic{
-    margin: 15px 0 0 17px;
-  }
-  .pets_allowed{
-    margin: 15px 0 0 17px;
-  }
+  
 }
 /* mise en forme info */
 .information{
@@ -261,7 +196,7 @@ form{
   align-items: baseline;
   padding-top: 30px;
 }
-.information h3{
+.information p{
   padding-left: 10px;
 }
 .information i{
