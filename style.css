@@ -76,17 +76,17 @@ nav li a:hover{
   }
 }
 /* mise en forme titres */
-h3{
+.Titres_site h3{
   font-weight: lighter;
   font-size: 17px;
   margin-top: 10px;
 }
-h2{
+.Titres_site h2{
   margin-bottom: 0;
 }
 /* titres affichage responsive */
 @media all and (max-width: 770px){
-  h2, h3{
+  .Titres_site{
     padding-left: 20px;
   }
 }
@@ -147,17 +147,25 @@ form{
 .section_filters{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
-.Filtres, .Filtres_P{
+.Filtres_P{
+  font-weight: bold;
+  margin-right: 30px;
+}
+.Filtres{
+  padding-right: 15px;
+  padding-left: 15px;
   font-weight: bold;
 }
 .filters_titles{
   display: flex;
   align-items: center;
-  width: 200px;
+  height: 48px;
   border-radius: 25px;
   border: 2px solid #F2F2F2;
+  margin-right: 25px;
 }
 .logofilters{
   display: flex;
@@ -169,6 +177,7 @@ form{
   background-color: #DEEBFF;
   color: #0065FC;
 }
+
 /* changement apparence filtres */
 .filters_titles:hover{
   background-color: #DEEBFF;
@@ -178,15 +187,17 @@ form{
 
 /* filtres affichage responsive */
 @media all and (max-width: 770px){
-  .section_filters{
+  .Filtres_P{
     width: 100%;
-    padding-left: 15px;
+    padding-left: 20px;
   }
   .filters_titles{
-    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
   }
-  .Filtres_P{
-    padding-left: 20px;
+  .section_filters{
+    margin-top: 15px;
   }
   
 }
@@ -194,7 +205,7 @@ form{
 .information{
   display: flex;
   align-items: baseline;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .information p{
   padding-left: 10px;
@@ -208,7 +219,8 @@ form{
 /* info affichage responsive */
 @media all and (max-width: 770px){
   .information{
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
   }
 }
 
