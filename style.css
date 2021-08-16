@@ -224,21 +224,38 @@ form{
     padding-top: 10px;
   }
 }
-/* mise en forme miniatures */
-.miniatures img{
-  width: 270px;
-  height: 150px;
+/* mise en forme hébergements à Marseille et les plus populaires */
+.miniatures_h img{
+  width: 260px;
+  height: 130px;
   object-fit: cover;
-
 }
-#lodging{
+.lodging{
   display: flex;
   flex-wrap: wrap;
 }
-.hebergements{
+.hebergements, .populaire{
   background-color: #F2F2F2;
   border-radius: 20px;
-  
+}
+.miniatures_p img{
+  object-fit: cover;
+  width: 160px;
+  height: 140px;
+}
+.popular_title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lodging_popular{
+  display: flex;
+}
+/* responsive popular */
+@media all and (max-width: 770px){
+  .lodging_popular{
+    flex-wrap: wrap-reverse;
+  }
 }
 
   
