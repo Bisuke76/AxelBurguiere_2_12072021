@@ -230,24 +230,18 @@ form{
   height: 110px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-
-  
 }
 .miniatures_h, .miniatures_p{
   background-color: white;
   padding: 5px;
   border-radius: 25px;
-  
 }
 .miniatures_p{
   display: flex;
 }
-
 .lodging{
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
 .hebergements, .populaire{
   background-color: #F2F2F2;
@@ -270,14 +264,14 @@ form{
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  
-  
 }
 .populaire{
-  width: 28%;
+  width: 31%;
+  height: 660px;
 }
 .hebergements{
-  width: 69%;
+  width: 65%;
+  height: 660px;
 }
 .starsgrade[data-active=true]{
   color: #0065FC;
@@ -286,7 +280,7 @@ form{
   color: #F2F2F2;
 }
 .link_cards{
-  width: 330px;
+  width: 300px;
 }
 #lodging_title{
   padding-left: 40px;
@@ -294,6 +288,7 @@ form{
 }
 .more{
   padding-left: 40px;
+  position: relative; bottom: 10px;
 }
 .legend_h{
   line-height: 8px;
@@ -302,25 +297,44 @@ form{
 }
 .miniatures_h{
   width: 250px;
+  position: relative; bottom: 15px;
 }
 .legend_p{
-  line-height: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .miniatures_p{
-  width: 330px;
+  width: 350px;
+  margin-bottom: 20px;
+  position:  relative; bottom: 15px;
 }
 .popular_title i{
-  padding-right: 40px;
+  padding-right: 50px;
 }
-
-
-
-/* responsive popular */
+.legend_p h3{
+  line-height: 25px;
+  position: relative; bottom: 10px;
+}
+.legend_p p{
+  position: relative;bottom: 25px;
+}
+.popular{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* responsive MAIN */
 @media all and (max-width: 770px){
   .lodging_popular{
     flex-wrap: wrap-reverse;
   }
+  .populaire, .hebergements{
+    width: 100%;
+    border-radius: 0px;
+  }
+  .hebergements{
+    background-color: white;
+  }
+  
 }
 
   
