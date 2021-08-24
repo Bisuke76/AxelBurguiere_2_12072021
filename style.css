@@ -236,9 +236,6 @@ form{
   padding: 5px;
   border-radius: 25px;
 }
-.miniatures_p{
-  display: flex;
-}
 .lodging{
   display: flex;
   flex-wrap: wrap;
@@ -289,6 +286,7 @@ form{
 .more{
   padding-left: 40px;
   position: relative; bottom: 10px;
+
 }
 .legend_h{
   line-height: 8px;
@@ -303,12 +301,17 @@ form{
   padding-left: 20px;
 }
 .miniatures_p{
+  display: flex;
   width: 350px;
   margin-bottom: 20px;
   position:  relative; bottom: 15px;
 }
 .popular_title i{
   padding-right: 50px;
+  font-size: 23px;
+}
+.popular_title h2{
+  font-size: 23px;
 }
 .legend_p h3{
   line-height: 25px;
@@ -334,6 +337,42 @@ form{
   .hebergements{
     background-color: white;
   }
+  .miniatures_p{
+    margin: auto 0;
+    margin-left: 20px;
+    width: 320px;
+    margin-top: 15px;
+  }
+  .popular_title h2{
+    margin-left: -20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .popular_title i{
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .populaire{
+    height: 610px;
+  }
+  .miniatures_h{
+    box-shadow: 1px 1px 1px 2px #F2F2F2;
+    margin: auto 0;
+    margin-left: 20px;
+    width: 320px;
+    margin-top: 15px;
+  }
+  #lodging_title{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .more{
+    padding-left: 20px;
+  }
+    
+  
   
 }
 
