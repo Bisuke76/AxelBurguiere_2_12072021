@@ -422,34 +422,34 @@ form{
   height: 450px;
 }
 .activities_link_pomegues{
-  height: 52.66%;
+  height: 52%;
 }
 .activities_link_column{
   width: 100%;
 }
 .activities_container_pomegues{
-  height: 74.68%;
+  height: 74%;
   width: 100%;
 }
 .activities_link_frioul{
-  height: 36.66%;
+  height: 36%;
 }
 .activities_container_frioul{
-  height: 63.64%;
+  height: 63%;
   width: 100%;
 }
 .activities_link_notre_dame{
-  height: 43.55%;
+  height: 43%;
 }
 .activities_container_notre_dame{
-  height: 69.39%;
+  height: 69%;
   width: 100%;
 }
 .activities_link_longchamp{
-  height: 46.88%;
+  height: 46%;
 }
 .activities_container_longchamp{
-  height: 71.57%;
+  height: 70%;
   width: 100%;
 }
 /* activités à Marseille responsive */
@@ -493,7 +493,7 @@ form{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 71.11%;
+  width: 70%;
 }
 .main_footer_container_category{
   display: flex;
@@ -523,8 +523,11 @@ form{
     margin-top: 25px;
   }
   .main_footer_container_list li, .main_footer_container_list_about li{
-    text-align: left;  
+    text-align: left;
+    width: 100%;
+    padding: 0;
   }
+  
 }
 
   
