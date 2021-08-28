@@ -312,7 +312,6 @@ form{
 }
 .legend_p p{
   position: relative;bottom: 25px;
-  
 }
 /* responsive MAIN */
 @media all and (max-width: 1024px){
@@ -369,7 +368,6 @@ form{
     margin-left: 10px;
     width: 91%;
   }
-  
 }
 /* mise en forme activités à Marseille */
 #activities{
@@ -475,7 +473,6 @@ form{
     width: 100%;
     height: 408px;
   }
-
 }
 /* mise en forme footer */
 .main_footer{
@@ -527,7 +524,6 @@ form{
     width: 100%;
     padding: 0;
   }
-  
 }
 
   
