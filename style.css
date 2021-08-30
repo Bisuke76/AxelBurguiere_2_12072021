@@ -369,6 +369,32 @@ form{
     width: 91%;
   }
 }
+@media all and (max-width:360px){
+  .miniatures_p{
+    width: 85%;
+    margin-left: 20px;
+  }
+  .populaire{
+    width: 100%;
+  }
+
+}
+@media all and (max-width:320px){
+  .miniatures_p{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .populaire{
+    width: 100%;
+  }
+  .hebergements{
+    width: 100%;
+  }
+  .miniatures_h{
+    width: 90%;
+  }
+}
 /* mise en forme activités à Marseille */
 #activities{
   margin-top: 5%;
