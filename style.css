@@ -8,7 +8,14 @@
 body{
   font-family: 'Raleway', Arial, sans-serif;
   margin: 0 auto;
+
+  
+}
+#bloc_page{
   max-width: 1440px;
+  margin: 0 auto;
+
+
 }
 /* mise en forme header */
 header{
@@ -326,9 +333,8 @@ form{
     background-color: white;
   }
   .miniatures_p{
-    margin: auto 0;
     margin-left: 20px;
-    width: 320px;
+    width: auto;
     margin-top: 15px;
   }
   .popular_title h2{
@@ -503,26 +509,21 @@ form{
 /* mise en forme footer */
 .main_footer{
   margin-top: 5%;
-  height: 215px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: #F2F2F2;
   height: 220px;
 }
 .main_footer_container{
-  margin-left: 50px;
-  margin-right: 50px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 70%;
+  width: 100%;
+  max-width: 1440px;
 }
 .main_footer_container_category{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
+  flex: 20%;
 }
 .main_footer_container_list_about, .main_footer_container_list{
   list-style-type: none;
@@ -544,6 +545,7 @@ form{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 25px;
+    display: initial;
   }
   .main_footer_container_list li, .main_footer_container_list_about li{
     text-align: left;
